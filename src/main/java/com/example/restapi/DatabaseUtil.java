@@ -8,9 +8,9 @@ import java.sql.SQLException;
 
 public class DatabaseUtil {
 	
-	private static final String URL = "jdbc:mysql://localhost:3306/testDB";
-	private static final String USER = "root";
-	private static final String PASSWORD = "root";
+	private static final String URL = "jdbc:mysql://0.0.0.0:3306/testDB";
+	private static final String USER = "test1";
+	private static final String PASSWORD = "test1";
 	
 	public static Connection getConnection() throws SQLException
 	{
