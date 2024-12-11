@@ -16,10 +16,10 @@ public class Main {
 		 ResourceConfig config = new ResourceConfig(PlayerResource.class, CORSFilter.class);
 	     //config.packages("com.example.restapi");
         
-        Server server = JettyHttpContainerFactory.createServer(URI.create("http://172.237.32.32:8080/"), config);
+        Server server = JettyHttpContainerFactory.createServer(URI.create("http://0.0.0.0:8080/"), config);
         server.start();
         
-        System.out.println("Server started at http://172.237.32.32:8080/");
+        System.out.println("Server started at http://0.0.0.0:8080/");
         server.join();
 	}
 }
