@@ -75,7 +75,7 @@ public class PlayerResource {
 			{
 				result.append("{")
 					  .append("\"id\": ").append(rs.getInt("id")).append(",")
-					  .append("\"name\": \"").append(rs.getString("playerName")).append("\",")
+					  .append("\"playerName\": \"").append(rs.getString("playerName")).append("\",")
 					  .append("\"age\": ").append(rs.getInt("age")).append(",")
 					  .append("\"city\": \"").append(rs.getString("city")).append("\",")
 					  .append("\"team\": \"").append(rs.getString("team")).append("\",")
