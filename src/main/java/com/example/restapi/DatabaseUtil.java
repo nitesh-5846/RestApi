@@ -41,22 +41,11 @@ public class DatabaseUtil {
 	
 	public static ResultSet getPlayers() throws SQLException
 	{
-		Connection con = null;
-		try {
-			System.out.println("Getting all the players");
-			String query = "SELECT * FROM Cricket_Players";
-			con = getConnection();
-			PreparedStatement ps = con.prepareStatement(query);
-			return ps.executeQuery();
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		finally
-		{
-			con.close();
-		}
-		return null;
+		System.out.println("Getting all the players");
+		String query = "SELECT * FROM Cricket_Players";
+		Connection con = getConnection();
+		PreparedStatement ps = con.prepareStatement(query);
+		return ps.executeQuery();
 	}
 	
 	public static ResultSet getPlayers(int id) throws SQLException
