@@ -70,21 +70,21 @@
 		</dependency>
 	    <!-- Jetty dependencies -->
 	    
-	    <dependency>
-	        <groupId>org.eclipse.jetty</groupId>
-	        <artifactId>jetty-server</artifactId>
-	        <version>9.4.40.v20210413</version> <!-- You may choose the correct version -->
-	    </dependency>
-	    <dependency>
-	        <groupId>org.eclipse.jetty</groupId>
-	        <artifactId>jetty-util</artifactId>
-	        <version>9.4.40.v20210413</version>
-	    </dependency>
-	    <dependency>
-	        <groupId>org.eclipse.jetty</groupId>
-	        <artifactId>jetty-servlet</artifactId>
-	        <version>9.4.40.v20210413</version>
-	    </dependency>
+<!--	    <dependency>-->
+<!--	        <groupId>org.eclipse.jetty</groupId>-->
+<!--	        <artifactId>jetty-server</artifactId>-->
+<!--	        <version>9.4.40.v20210413</version>  You may choose the correct version -->
+<!--	    </dependency>-->
+<!--	    <dependency>-->
+<!--	        <groupId>org.eclipse.jetty</groupId>-->
+<!--	        <artifactId>jetty-util</artifactId>-->
+<!--	        <version>9.4.40.v20210413</version>-->
+<!--	    </dependency>-->
+<!--	    <dependency>-->
+<!--	        <groupId>org.eclipse.jetty</groupId>-->
+<!--	        <artifactId>jetty-servlet</artifactId>-->
+<!--	        <version>9.4.40.v20210413</version>-->
+<!--	    </dependency>-->
 	    
 		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
 		<dependency>
