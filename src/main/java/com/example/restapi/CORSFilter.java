@@ -27,7 +27,6 @@ public class CORSFilter implements ContainerRequestFilter, ContainerResponseFilt
         responseContext.getHeaders().add("Access-Control-Allow-Origin", "*");  // Replace "*" with your frontend URL for security
         responseContext.getHeaders().add("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
         responseContext.getHeaders().add("Access-Control-Allow-Headers", "Content-Type, Authorization");
-        responseContext.getHeaders().add("Content-Type", "application/json");
         responseContext.getHeaders().add("Access-Control-Allow-Credentials", "true");
     }
 }
