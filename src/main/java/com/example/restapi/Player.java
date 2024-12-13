@@ -4,55 +4,62 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Player {
 	
+	@JsonProperty("id")
 	private int id;
+	@JsonProperty("playerName")
 	private String playerName;
+	@JsonProperty("age")
 	private int age;
+	@JsonProperty("city")
 	private String city;
+	@JsonProperty("team")
 	private String team;
+	@JsonProperty("numberOfMatches")
 	private int numberOfMatches;
+	@JsonProperty("highestScore")
 	private int highestScore;	
 	
-	@JsonProperty("id")
+	
 	public int getId() {
 		return id;
 	}
+	
 	public void setId(int id) {
 		this.id = id;
-	}
+	}	
 	
-	@JsonProperty("playerName")
 	public String getPlayerName() {
 		return playerName;
 	}
+	
 	public void setPlayerName(String playerName) {
 		this.playerName = playerName;
-	}
+	}	
 	
-	@JsonProperty("age")
 	public int getAge() {
 		return age;
 	}
+	
 	public void setAge(int age) {
 		this.age = age;
-	}
+	}	
 	
-	@JsonProperty("city")
 	public String getCity() {
 		return city;
 	}
+	
 	public void setCity(String city) {
 		this.city = city;
 	}
 	
-	@JsonProperty("team")
 	public String getTeam() {
 		return team;
 	}
+	
 	public void setTeam(String team) {
 		this.team = team;
 	}
 	
-	@JsonProperty("numberOfMatches")
 	public int getNumberOfMatches() {
 		return numberOfMatches;
 	}
@@ -60,10 +67,10 @@ public class Player {
 		this.numberOfMatches = numberOfMatches;
 	}
 	
-	@JsonProperty("highestScore")
 	public int getHighestScore() {
 		return highestScore;
 	}
+	
 	public void setHighestScore(int highestScore) {
 		this.highestScore = highestScore;
 	}
