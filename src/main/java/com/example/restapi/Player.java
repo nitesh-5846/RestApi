@@ -19,6 +19,7 @@ public class Player {
 	@JsonProperty("highestScore")
 	private int highestScore;	
 	
+	public Player() { }
 	
 	public int getId() {
 		return id;
