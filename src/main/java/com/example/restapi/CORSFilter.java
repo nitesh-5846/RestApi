@@ -9,7 +9,11 @@ public class CORSFilter implements ContainerRequestFilter, ContainerResponseFilt
 
     @Override
     public void filter(ContainerRequestContext requestContext) throws IOException {
-        // Handle pre-flight OPTIONS request (CORS check)
+    	
+        // Handle pre-flight OPTIONS request (CORS check)    	
+    	System.out.println("Request Headers: " + requestContext.getHeaders());
+        System.out.println("Request Method: " + requestContext.getMethod());
+        
         if ("OPTIONS".equals(requestContext.getMethod())) {
             return;  // No need to process further for OPTIONS request
         }
