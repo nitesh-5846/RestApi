@@ -1,9 +1,0 @@
-/var/www/java-api/src/main/java/com/example/restapi/Player.java
-/var/www/java-api/src/main/java/com/example/restapi/InMemoryResultSet.java
-/var/www/java-api/src/main/java/com/example/restapi/CORSFilter.java
-/var/www/java-api/src/main/java/com/example/restapi/PlayerResource.java
-/var/www/java-api/src/main/java/com/example/restapi/ResultSetUtils.java
-/var/www/java-api/src/main/java/com/example/restapi/Main.java
-/var/www/java-api/src/main/java/com/example/restapi/DatabaseUtil.java
-/var/www/java-api/src/main/java/com/example/restapi/GlobalExceptionMapper.java
-/var/www/java-api/src/main/java/com/example/restapi/InMemoryResultSetMetaData.java
