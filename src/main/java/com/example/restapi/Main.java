@@ -20,7 +20,7 @@ public class Main {
 	     try 
 	     {
 			Logger logger = Logger.getLogger(LoggingFeature.DEFAULT_LOGGER_NAME);
-			 ResourceConfig config = new ResourceConfig(PlayerResource.class, CORSFilter.class);
+			 ResourceConfig config = new ResourceConfig(PlayerResource.class, EmailService.class, CORSFilter.class);
 			 //config.packages("com.example.restapi");
 			 //config.register(new LoggingFeature(logger, Level.ALL, LoggingFeature.Verbosity.PAYLOAD_ANY, 8192));
 			 config.register(JacksonFeature.class);
