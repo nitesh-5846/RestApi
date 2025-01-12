@@ -10,7 +10,7 @@ import java.util.Collections;
 import java.time.Duration;
 
 public class KafkaUtil {
-    private static final String BOOTSTRAP_SERVERS = "localhost:9092";
+    private static final String BOOTSTRAP_SERVERS = "kafka:9092";
 
     // Kafka Producer
     public static void sendMessage(String topic, String key, String value) {
